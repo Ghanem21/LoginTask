@@ -1,0 +1,35 @@
+[versions]
+agp = "8.7.1"
+facebookLogin = "17.0.2"
+gson = "2.11.0"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+material = "1.12.0"
+activity = "1.9.3"
+constraintlayout = "2.1.4"
+msal = "5.7.0"
+opentelemetryBom = "1.18.0"
+playServicesAuth = "21.2.0"
+slf4jBom = "2.0.9"
+
+[libraries]
+facebook-login = { module = "com.facebook.android:facebook-login", version.ref = "facebookLogin" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+msal = { module = "com.microsoft.identity.client:msal", version.ref = "msal" }
+opentelemetry-bom = { module = "io.opentelemetry:opentelemetry-bom", version.ref = "opentelemetryBom" }
+play-services-auth = { module = "com.google.android.gms:play-services-auth", version.ref = "playServicesAuth" }
+slf4j-api = { module = "org.slf4j:slf4j-api" }
+slf4j-bom = { module = "org.slf4j:slf4j-bom", version.ref = "slf4jBom" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+

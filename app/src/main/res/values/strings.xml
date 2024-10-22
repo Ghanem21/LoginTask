@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LoginTask</string>
+    <string name="facebook_app_id">2387763258229114</string>
+    <string name="facebook_client_token">ee2eb82e41c5bf6748b167e16295875d</string>
+</resources>
